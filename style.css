@@ -1,0 +1,46 @@
+.logo{
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+  h3{
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-weight: 700;
+    font-size: small;
+  }
+
+  body {
+    min-width: 250px; /* your desired width */
+    max-width: 100%;
+    position: relative;
+    vertical-align:middle;
+    background-color: whitesmoke;
+    padding-top: 10px;
+  }
+
+  form{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding: 10px 10px 10px 10px;
+  }
+
+  option{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+  }
+
+  button{
+    background-color: rgb(228, 73,80) !important;
+    border-color:  rgb(228, 73,80) !important;
+  }
+
+  button:hover{
+    background-color: rgb(206, 55, 63) !important;
+    border-color: rgb(206, 55, 63) !important;
+  }
+
+  label{
+      font-size: 12px;
+  }
