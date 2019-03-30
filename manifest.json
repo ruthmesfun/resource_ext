@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Teacher Resources",
+    "description": "An extension for teachers to find resources in TpT.",
+    "version": "0.0.1",
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_title": "Open the popup"
+      },
+
+      "icons": {
+            "16": "apple.png",
+            "48": "apple.png",
+            "128": "apple.png"
+        },
+        "permissions": [
+        ]
+  }
