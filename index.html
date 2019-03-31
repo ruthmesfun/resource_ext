@@ -16,8 +16,8 @@
                 <div>
                     <form>
                         <div class="form-group grades">
-                          <label for="grades">Choose a grade</label>
-                          <select class="form-control grades" name="grades" id="grades">
+                          <select class="form-control grades" name="grades" id="grades" >
+                            <option selected class='selected'>Choose a grade </option>
                             <option value="k"> K</option>
                             <option value="01"> 1</option>
                             <option value="02"> 2</option>
@@ -33,7 +33,14 @@
                             <option value="12"> 12</option>
                           </select>
                         </div>
-
+                        <div class="form-group subjects">
+                          <select class="form-control" name="subjects" id="subjects">
+                            <option selected class='selected'>Choose a subject </option>
+                            <option value="ela"> ELA/Literacy</option>
+                            <option value="math"> Math</option>
+                          </select>
+                        </div>
+                        
                         <div class="form-group" id='standards'>
 
                         </div>

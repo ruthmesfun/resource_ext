@@ -44,3 +44,7 @@
   label{
       font-size: 12px;
   }
+
+  .selected{
+    color: slategray;
+  }
